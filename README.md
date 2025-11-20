@@ -8,10 +8,6 @@
 
 また、最初に100本購入した場合、トータルで何本飲めるか。
 
-### 備考
-
-この問題は小学校3年生の算数の問題をベースとしている。
-
 ## 例
 
 | 購入した本数 | 飲める本数 |
@@ -26,9 +22,10 @@
 ## 解答方法について
 
 1. このリポジトリを自分のアカウントにforkする。
-2. Actionsで“I understand my workflows, go ahead and enable them”を押す。
+2. Actionsタブで"I understand my workflows, go ahead and enable them"を押す。
 3. forkした自分のリポジトリで、"my_answer"というブランチを切る。
-4. “my_answer”ブランチで問題を解き、pushする。
+4. "my_answer"ブランチで問題を解き、pushする。
+5. GitHub Actions でSuccess(緑)になっていることを確認する。緑になっていなければ緑になるまでやり直す。
 
 ## ローカル環境でのテストの実行方法
 
@@ -36,3 +33,6 @@
 bundle install
 bundle exec rspec
 ````
+## 参考 
+
+[GitHub Actionsについて](https://docs.github.com/ja/actions)
